@@ -10,14 +10,14 @@ from main import (
 
 class TestMainApp(unittest.TestCase):
     """
-    Class for testing my code from main
+    Class for testing my code from main.py
     """
     @patch('builtins.input', side_effect = ['alice'])
     @patch('builtins.print')
     def test_greetperson(self, mock_print: Mock, _:Mock) -> None:
         """"
         Test to test greet_person function 
-        from main
+        from main.py
         """
         greet_person()
         except_calls = [
