@@ -2,6 +2,7 @@
 TODO: A very useful temperature-conversion app.
 """
 def main() -> None:
+    """Main function"""
     print("Hello World")
 
     your_name: str = input("Give me your name please: ")
